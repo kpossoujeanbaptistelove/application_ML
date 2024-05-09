@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import pmdarima as pm
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import *
