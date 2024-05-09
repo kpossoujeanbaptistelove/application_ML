@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pmdarima as pm
+#import pmdarima as pm
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import *
 
@@ -71,8 +71,8 @@ def main():
      test_data2 = df2['small'][-15:]
 
 # Utiliser auto_arima pour trouver le meilleur modèle ARIMA
-     model1 = pm.auto_arima(train_data1)
-     model2 = pm.auto_arima(train_data2)
+     #model1 = pm.auto_arima(train_data1)
+     #model2 = pm.auto_arima(train_data2)
 
      st.subheader('Résumé des modèles ARIMA')
 
